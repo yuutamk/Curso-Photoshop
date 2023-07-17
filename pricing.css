@@ -72,12 +72,14 @@ a{
   }
   .photo-h1{
     font-size: 4rem;
+    text-align: center;
   }
   .informacion{
     font-size: 4rem;
   }
   h1{
     font-size: 4rem;
+    
   }
 }
 
@@ -155,7 +157,7 @@ a{
   position: absolute;
   top: 5em;
   transform: translateY(-100%);
-  transform: translateX(5.2rem);
+  transform: translateX(30%);
   left: 0;
   display: flex;
   width: 100%;
