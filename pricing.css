@@ -32,16 +32,16 @@ a{
 
 @media (min-width: 767px){
   #hero .informacion-contenedor{
-    font-size: 0.5rem;
+    font-size: 0.2rem;
   }
   .photo-h1{
-    font-size: 0.5rem;
+    font-size: 0.2rem;
   }
   .informacion{
-    font-size: 0.5rem;
+    font-size: 0.2rem;
   }
   h1{
-    font-size: 1.5rem;
+    font-size: 0.2rem;
   }
 }
 
@@ -68,7 +68,7 @@ a{
 
 @media (min-width: 991px){
   #hero .informacion-contenedor{
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .photo-h1{
     font-size: 4rem;
