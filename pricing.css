@@ -109,7 +109,7 @@ a{
   position: absolute;
   top: 5em;
   transform: translateY(-100%);
-  transform: translateX(5.2rem);
+  /* transform: translateX(5.2rem); */
   left: 0;
   display: flex;
   width: 100%;
