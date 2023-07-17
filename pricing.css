@@ -30,11 +30,57 @@ a{
   user-select: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px){
+  #hero .informacion-contenedor{
+    font-size: 0.5rem;
+  }
+  .photo-h1{
+    font-size: 0.5rem;
+  }
+  .informacion{
+    font-size: 0.5rem;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+  h1{
+    font-size: 3.5rem;
+  }
+  .photo-h1{
+    font-size: 3.5rem;
+  }
+  #hero .informacion-contenedor{
+    font-size: 3.5rem;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  .informacion{
+    font-size: 3.5rem;
+  }
 }
+
+@media (min-width: 991px){
+  #hero .informacion-contenedor{
+    font-size: 5rem;
+  }
+  .photo-h1{
+    font-size: 4rem;
+  }
+  .informacion{
+    font-size: 4rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+}
+
 
 .b-example-divider {
   width: 100%;
@@ -109,7 +155,7 @@ a{
   position: absolute;
   top: 5em;
   transform: translateY(-100%);
-  /* transform: translateX(5.2rem); */
+  transform: translateX(5.2rem);
   left: 0;
   display: flex;
   width: 100%;
@@ -183,7 +229,7 @@ a{
     font-weight: bold;
     
     top: 10%;
-    /* transform: translateY(-20%); */
+    transform: translateY(-20%);
     
 }
 
