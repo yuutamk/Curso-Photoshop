@@ -31,18 +31,18 @@ a{
   user-select: none;
 }
 
-@media (min-width: 767px){
+@media (max-width: 767px){
   #hero .informacion-contenedor{
-    font-size: 0.2rem;
+    font-size: 20px;
   }
   .photo-h1{
-    font-size: 0.2rem;
+    font-size: 20px;
   }
   .informacion{
-    font-size: 0.2rem;
+    font-size: 20px;
   }
   h1{
-    font-size: 0.2rem;
+    font-size: 20px;
   }
 }
 
