@@ -1,4 +1,5 @@
 body {
+  
   background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
 }
 
@@ -243,9 +244,15 @@ a{
 }
 /* Estilos del main*/
 main{
+  
+  /* background-color: #23272d; */
     padding: 100px;
+    
 }
 
+p{
+  color: #fff;
+}
 footer .social-icons{
     display: flex;
     justify-content: center;
