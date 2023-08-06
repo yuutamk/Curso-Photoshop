@@ -36,10 +36,20 @@ a{
     font-size: 20px;
   }
   .photo-h1{
-    font-size: 5px;
+    position: absolute;
+    top: 20%;
+   /*  transform: translateY(-100%);
+    transform: translateX(30%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px; */
+    /* font-size: 5px; */
   }
   .informacion{
-    font-size: 5px;
+    top: 50%;
+    font-size: 15px;
   }
   h1{
     font-size: 20px;
