@@ -197,6 +197,8 @@ header{
     color: #fff; /* Cambiar el color del texto del pie de página según necesidad */
     padding: 1rem;
     text-align: center;
+    flex-shrink: 0;
+    margin-top: auto;
   }
   
   .social-icons {
@@ -210,6 +212,12 @@ header{
   .social-icon {
     display: inline-block;
     margin: 0 10px;
-    width: 30px; /* Ajustar el tamaño de los íconos según necesidad */
+    width: 30px; 
     height: 30px;
+  }
+
+  #app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
