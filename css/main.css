@@ -83,6 +83,7 @@ header{
        
         color: #ececec;
     }
+    
 }
 
 /* Estilos de hero */
@@ -116,10 +117,11 @@ header{
     /* margin-top: 2rem; */
     /* position: relative; */
     padding: 10px;
+    
   }
   
   #hero .informacion-contenedor .informacion {
-    
+    font-size: clamp(1rem, 3vw, 5rem);
     margin-left: 20px;
     font-weight: bold;
   }
@@ -128,6 +130,7 @@ header{
     display: block;
     color: #b5b5b5;
     margin-top: 10px;
+    font-size: clamp(1rem, 3vw, 5rem);
   }
 
 /* Estilos para la imagen principal */
@@ -175,7 +178,7 @@ header{
   }
   
   .informacion h1 {
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 3vw, 5rem);
     margin-bottom: 0.5rem;
   }
   
