@@ -11,6 +11,10 @@ header{
     justify-content: space-between;
     padding: 2rem;
     background-color: #ececec;
+   /*  position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; */
 }
 
 .logo{
@@ -21,11 +25,13 @@ header{
     list-style: none;
     display: flex;
     gap: 1rem;
+    
 }
 
 .nav-list li a{
     text-decoration: none;
     color: #1c1c1c;
+    
 }
 .cerrar-menu,
 .abrir-menu {
@@ -184,7 +190,7 @@ header{
   
   .informacion span {
     font-size: 1rem;
-    color: #6c757d; /* Cambiar el color del subtexto según necesidad */
+    color: #6c757d; 
   }
   
   .informacion p {
@@ -193,8 +199,8 @@ header{
   
   /* Estilos para el pie de página */
   footer {
-    background-color: #343a40; /* Cambiar el color de fondo del pie de página según necesidad */
-    color: #fff; /* Cambiar el color del texto del pie de página según necesidad */
+    background-color: #343a40; 
+    color: #fff; 
     padding: 1rem;
     text-align: center;
     flex-shrink: 0;
@@ -220,4 +226,5 @@ header{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    /* margin-top: 70px; */
   }
