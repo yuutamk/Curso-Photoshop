@@ -1,0 +1,32 @@
+ /* Estilo para el menú flotante */
+ .menu-lateral {
+    position: fixed;
+    left: -220px;
+    top: 7rem;
+    height: 55%;
+    width: 20%;
+    background-color: #333;
+    color: #fff;
+    transition: left 0.3s;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    margin-left: 0; /* Inicialmente sin margen */
+    transition: margin-left 0.3s; /* Agrega una transición suave para animar el ajuste del margen */
+}
+
+.menu-lateral a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el contenido principal */
+.contenido {
+    margin-left: 20%; /* Ajusta este valor para que coincida con el ancho del menú lateral */
+    padding: 20px;
+}
