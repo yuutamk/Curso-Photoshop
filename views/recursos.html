@@ -8,34 +8,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menuFlotante.css">
     <link rel="icon" type="image/png" href="../src/MKS mosca.png">
     <title>Temas</title>
     <style>
-        /* Estilo para el menú flotante */
-        .menu-lateral {
-            position: fixed;
-            left: 0;
-            top: 7rem;
-            height: 55%;
-            width: 20%;
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-
-        .menu-lateral a {
-            color: #fff;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        /* Estilo para el contenido principal */
-        .contenido {
-            margin-left: 20%; /* Ajusta este valor para que coincida con el ancho del menú lateral */
-            padding: 20px;
-        }
+       
     </style>
 </head>
 <body>
@@ -55,9 +32,24 @@
             </nav>
         </header>
         <script src="../js/main.js"></script>
+        <script src="../js/menuFlotante.js"></script>
    <main>
+    <button id="abrir-lateral">Abrir Menú Lateral</button>   
 <h1>Recursos</h1>
    </main>
+   <div class="menu-lateral" id="menu-lateral">
+    <h2>Temas</h2>
+    <ul>
+        <li><a href="#tema1">S1 - Introducción a Photoshop</a></li>
+        <li><a href="#tema2">S2 - El Entorno de Photoshop</a></li>
+        <li><a href="#tema3">S3 - Las Selecciones</a></li>
+        <li><a href="#tema4">S4 - Fotografía Digital</a></li>
+        <li><a href="#tema5">S5 - Creación de Imágenes Sintéticas</a></li>
+        <li><a href="#tema6">Opciones adicionales</a></li>
+        <li><a href="#tema7">Los Trazados</a></li>
+        <li><a href="#tema8">Obtener más recursos</a></li>
+    </ul>
+</div>
 <footer>
     <ul class="social-icons">
         <li>

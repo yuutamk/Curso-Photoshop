@@ -43,7 +43,7 @@ header{
     .cerrar-menu {
         display: block;
         border: 0;
-        font-size: 1.25rem;
+        font-size: 2.75rem;
         background-color: transparent;
         cursor: pointer;
     }
@@ -62,7 +62,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: end;
-        gap: 1rem;
+        gap: 1.5rem;
         position: absolute;
         top: 0;
         right: 0;
@@ -71,7 +71,7 @@ header{
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         z-index: 2;
-        /* max-height: calc(100vh - 100px); */
+        /*  max-height: calc(100vh - 100px);  */
         overflow-y: auto;
     }
 
