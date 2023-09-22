@@ -1,7 +1,7 @@
  /* Estilo para el menú flotante */
  .menu-lateral {
     position: fixed;
-    left: -220px;
+    left: 0px;
     top: 7rem;
     height: 55%;
     width: 20%;
@@ -14,7 +14,7 @@
 }
 
 main {
-    margin-left: 0; /* Inicialmente sin margen */
+    margin-left: 20%; /* Inicialmente sin margen */
     transition: margin-left 0.3s; /* Agrega una transición suave para animar el ajuste del margen */
 }
 

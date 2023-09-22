@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("DOMContentLoaded event fired.");
-    const nav = document.querySelector("#nav");
+ /*    const nav = document.querySelector("#nav"); */
     const abrir = document.querySelector("#abrir");
     const cerrar = document.querySelector("#cerrar");
     const abrirLateral = document.querySelector("#abrir-lateral");
