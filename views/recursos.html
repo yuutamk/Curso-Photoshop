@@ -8,12 +8,16 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/menuFlotante.css">
+    <link rel="stylesheet" href="../css/menuFlotante2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../js/menuFlotante.js">
     <link rel="icon" type="image/png" href="../src/MKS mosca.png">
     <title>Temas</title>
     <style>
        
     </style>
+
+
 </head>
 <body>
     <div id="app-container">
@@ -32,9 +36,27 @@
             </nav>
         </header>
         <script src="../js/main.js"></script>
-        <script src="../js/menuFlotante.js"></script>
+        
+        <div class="menu-toggle" id="menu-toggle">
+            <button class="toggle-button" id="toggle-button">&#9660;</button>
+        </div>
    <main>
-    <button id="abrir-lateral">Abrir Menú Lateral</button>   
+    <div class="menu-lateral mobile" id="menu-lateral">
+        <h2>Temas</h2>
+        <ul>
+            <li><a href="#recursos">S1 - Introducción a Photoshop</a></li>
+            <li><a href="#tema2">S2 - El Entorno de Photoshop</a></li>
+            <li><a href="#tema3">S3 - Las Selecciones</a></li>
+            <li><a href="#temas">S4 - Fotografía Digital</a></li>
+            <li><a href="#tema5">S5 - Creación de Imágenes Sintéticas</a></li>
+            <li><a href="#tema6">Opciones adicionales</a></li>
+            <li><a href="#tema7">Los Trazados</a></li>
+            <li><a href="#tema8">Obtener más recursos</a></li>
+        </ul>
+        
+    </div>
+    
+     
 <h1 id="recursos">Recursos</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam debitis expedita rerum officiis maxime, odit distinctio molestias quam voluptates temporibus eius facilis, doloribus sunt optio quidem? Veritatis, natus sint.</p>
 <h1 id="temas">Temas</h1>
@@ -52,19 +74,8 @@
 <h1 id="tema8">Obtener más recursos</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia commodi quas ut tenetur temporibus ipsa pariatur, explicabo voluptate animi blanditiis ullam quo aliquam nobis dolores omnis sed asperiores perspiciatis assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugiat labore quibusdam ab quisquam, eius error, quidem dolore illo itaque modi. Amet a nulla sunt quidem labore dicta alias adipisci! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia dicta nostrum praesentium quam magni exercitationem sapiente omnis, adipisci animi molestiae totam provident, eligendi dignissimos. Perspiciatis aspernatur iure sapiente beatae.</p>
    </main>
-   <div class="menu-lateral" id="menu-lateral">
-    <h2>Temas</h2>
-    <ul>
-        <li><a href="#recursos">S1 - Introducción a Photoshop</a></li>
-        <li><a href="#tema2">S2 - El Entorno de Photoshop</a></li>
-        <li><a href="#tema3">S3 - Las Selecciones</a></li>
-        <li><a href="#temas">S4 - Fotografía Digital</a></li>
-        <li><a href="#tema5">S5 - Creación de Imágenes Sintéticas</a></li>
-        <li><a href="#tema6">Opciones adicionales</a></li>
-        <li><a href="#tema7">Los Trazados</a></li>
-        <li><a href="#tema8">Obtener más recursos</a></li>
-    </ul>
-</div>
+   
+
 <footer>
     <ul class="social-icons">
         <li>

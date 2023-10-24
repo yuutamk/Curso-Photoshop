@@ -1,17 +1,26 @@
  /* Estilo para el menú flotante */
- .menu-lateral {
+ .menu-lateral.mobile {
     position: fixed;
-    left: 0px;
+    left: 0;
     top: 7rem;
-    height: 55%;
+    height: 100%;
     width: 20%;
     background-color: #333;
     color: #fff;
-    transition: left 0.3s;
+    /* transition: left 0.3s; */
     z-index: 1000;
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
 
 main {
     margin-left: 20%; /* Inicialmente sin margen */
@@ -22,11 +31,46 @@ main {
     color: #fff;
     text-decoration: none;
     display: block;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    padding: 10px;
 }
+
+.toggle-button {
+    display: none;
+}
+
 
 /* Estilo para el contenido principal */
 .contenido {
     margin-left: 20%; /* Ajusta este valor para que coincida con el ancho del menú lateral */
     padding: 20px;
+}
+
+/* Media query para dispositivos móviles (ancho menor a 768px) */
+@media (max-width: 550px) {
+    .menu-lateral.mobile {
+        left: -250px; /* Inicialmente oculto en dispositivos móviles */
+        transition: left 0.3s;
+        display: none;
+    }
+
+    .toggle-button {
+        display: block;
+        position: absolute;
+        background-color: #333;
+        color: #30c77e;
+        font-size: 15px;
+        border-radius: 0 5px 5px 0;
+        top: 50%;
+        right: auto;
+        left: 0;
+    }
+
+    /* Estilo para el contenido principal en dispositivos móviles */
+    .contenido {
+        margin-left: 0; /* Cambiado a 0 para acomodar el menú oculto en dispositivos móviles */
+    }
+    main{
+        margin-left: .8em;
+    }
 }
