@@ -61,7 +61,8 @@ main {
         color: #30c77e;
         font-size: 15px;
         border-radius: 0 5px 5px 0;
-        top: 50%;
+        top: center;
+        bottom: center;
         right: auto;
         left: 0;
     }
