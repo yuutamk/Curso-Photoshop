@@ -56,15 +56,14 @@ main {
 
     .toggle-button {
         display: block;
-        position: absolute;
+        position: fixed;
         background-color: #333;
         color: #30c77e;
         font-size: 15px;
         border-radius: 0 5px 5px 0;
-        top: center;
-        bottom: center;
-        right: auto;
+        top: 50%;
         left: 0;
+        transform: translateY(-50%);
     }
 
     /* Estilo para el contenido principal en dispositivos móviles */
